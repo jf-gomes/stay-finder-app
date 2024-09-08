@@ -4,7 +4,7 @@ import { theme } from "../theme";
 
 export default function Header(){
     return (
-        <View className="flex flex-row items-center justify-between mb-6">
+        <View className="flex flex-row items-center justify-between mb-6 pr-6 pl-6">
             <View className="flex flex-row items-center gap-4">
                 <Image source={{
                     uri: 'https://i.imgur.com/Gpoolv8.jpg'
