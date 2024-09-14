@@ -1,4 +1,4 @@
-import { View } from "react-native"
+import { ScrollView, View } from "react-native"
 import Header from "../components/header"
 import SearchBar from "../components/searchBar"
 import MainDestinations from "../components/mainDestinations"
@@ -7,12 +7,12 @@ import PopularOptions from "../components/popularOptions"
 
 export default function Home(){
     return (
-        <View className="mt-16">
+        <ScrollView className="mt-16">
             <Header />
             <SearchBar />
             <MainDestinations />
             <BestHotels />
             <PopularOptions />
-        </View>
+        </ScrollView>
     )
 }

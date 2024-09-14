@@ -29,7 +29,11 @@ export default function MainDestinations(){
     return (
         <View className="mb-6 ml-6">
             <Title content="Principais destinos" />
-            <FlatList data={MAIN_DESTINATIONS} renderItem={({item}) => <RenderDestination destination={item} />} horizontal showsHorizontalScrollIndicator={false} />
+            <FlatList
+                data={MAIN_DESTINATIONS}
+                renderItem={({item}) => <RenderDestination destination={item} />}
+                horizontal
+                showsHorizontalScrollIndicator={false} />
         </View>
     )
 }

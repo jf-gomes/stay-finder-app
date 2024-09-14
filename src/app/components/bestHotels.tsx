@@ -41,7 +41,11 @@ export default function BestHotels(){
         <View className="mb-6 pl-6">
             <Title content="Melhores hotéis" />
             <View>
-                <FlatList data={HOTELS} renderItem={({item}) => <RenderHotel hotel={item} />} horizontal showsHorizontalScrollIndicator={false} />
+                <FlatList
+                    data={HOTELS}
+                    renderItem={({item}) => <RenderHotel hotel={item} />}
+                    horizontal
+                    showsHorizontalScrollIndicator={false} />
             </View>
         </View>
     )
