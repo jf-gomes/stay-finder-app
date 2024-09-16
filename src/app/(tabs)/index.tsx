@@ -7,7 +7,7 @@ import PopularOptions from "../components/popularOptions"
 
 export default function Home(){
     return (
-        <ScrollView className="mt-16">
+        <ScrollView className="pt-6" style={{backgroundColor: "white"}}>
             <Header />
             <SearchBar />
             <MainDestinations />

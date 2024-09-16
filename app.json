@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "my-app",
     "name": "stay-finder",
     "slug": "stay-finder",
     "version": "1.0.0",
@@ -22,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
